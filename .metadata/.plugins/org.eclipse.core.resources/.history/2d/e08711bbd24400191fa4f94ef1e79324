@@ -1,0 +1,11 @@
+package br.com.itau.helpers;
+
+
+public class LogUtil {
+	
+	Logger logger = LoggerFactory.getLogger(LogUtil.class);
+	
+	public static void WriteLog(String message) {
+		logger.error(String.format("Log App: %s", message));
+	}
+}

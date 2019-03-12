@@ -1,0 +1,25 @@
+package br.com.itau.helpers;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LogUtil {
+	
+	Logger logger = LoggerFactory.getLogger(LogUtil.class);
+	
+	public void WriteLog(String message) {
+		logger.trace("A TRACE Message");
+        logger.debug("A DEBUG Message");
+        logger.info("An INFO Message");
+        logger.warn("A WARN Message");
+        logger.error("An ERROR Message");
+        
+        /*
+		logger.info(String.format("Log App: %s", message));
+		logger.debug(String.format("Log App: %s", message));
+		logger.trace(String.format("Log App: %s", message));
+		logger.error(String.format("Log App: %s", message));
+		logger.debug(String.format("Log App: %s", message));
+		*/
+	}
+}

@@ -1,0 +1,11 @@
+package br.com.itau.helpers;
+
+public class LogUtil {
+
+	@Bean
+	public static CommandLineRunner WriteLog(String message) {
+		return args -> {
+			log.info(message);
+		}
+	}
+}

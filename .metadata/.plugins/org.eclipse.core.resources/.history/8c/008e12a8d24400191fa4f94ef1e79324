@@ -1,0 +1,8 @@
+package br.com.itau.helpers;
+
+public class LogUtil {
+
+	public static void WriteLog(String message) {
+		System.out.println(String.format("Log App: %s", message));
+	}
+}

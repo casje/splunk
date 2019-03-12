@@ -1,0 +1,14 @@
+# 1. Instalando o Splunk
+rpm -ivh splunk...
+
+# 2. Entrar no diretorio de instalacao do Splunk
+cd /opt/splunk/bin
+
+# 3. Iniciar o serviço do Splunk
+./splunk start
+
+# 4. Usuario
+User: admin
+Senha: itaucurso
+
+
